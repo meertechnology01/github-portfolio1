@@ -23,9 +23,9 @@ export default function CVHeader() {
           <Github size={16} />
           <span>GitHub</span>
         </a>
-        <a href="https://meertech.tech" className="flex items-center gap-1 text-blue-600 hover:text-blue-700">
+        <a href="https://sanimahmudmadobi.meertech.tech" className="flex items-center gap-1 text-blue-600 hover:text-blue-700">
           <Globe size={16} />
-          <span>MeerTech.tech</span>
+          <span>SM.MeerTech.tech</span>
         </a>
       </div>
     </header>

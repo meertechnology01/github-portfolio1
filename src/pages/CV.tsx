@@ -11,11 +11,11 @@ export default function CV() {
 
         <CVSection title="PROFESSIONAL SUMMARY">
           <p className="text-gray-700">
-            A versatile software engineer with expertise in full-stack development, machine learning, and deep learning,
-            currently enrolled in the ALX Africa Software Engineering Program (graduating in December 2024). With certifications
-            in HCIA AI and HCIA Datacom, as well as Java programming from Aptech Computer Education, I specialize in building
-            scalable applications and solutions in agriculture, finance, health and task management sectors. Adept at solving
-            real-world problems using innovative technologies, with a strong focus on enhancing user experience.
+            A versatile software engineer with expertise in full-stack development, machine learning, and deep learning.
+            A graduate of the ALX Africa Software Engineering Program, with certifications in HCIA AI and HCIA Datacom,
+            as well as Java programming from Aptech Computer Education. I specialize in building scalable applications
+            and solutions in agriculture, finance, health, and task management sectors. Adept at solving real-world problems
+            using innovative technologies, with a strong focus on enhancing user experience.
           </p>
         </CVSection>
 
