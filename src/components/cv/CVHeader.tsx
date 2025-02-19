@@ -25,7 +25,7 @@ export default function CVHeader() {
         </a>
         <a href="https://sanimahmudmadobi.meertech.tech" className="flex items-center gap-1 text-blue-600 hover:text-blue-700">
           <Globe size={16} />
-          <span>SM.MeerTech.tech</span>
+          <span>sm.meertech.tech</span>
         </a>
       </div>
     </header>
