@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github, Import, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import heroImage from './img/Untitled.png'; // Import the image
+import UntitledImage from '../img/Untitled.png'; // Import the image
 
 export default function Hero() {
   return (
@@ -50,7 +50,7 @@ export default function Hero() {
             <div className="w-64 h-64 lg:w-96 lg:h-96 relative">
               <div className="absolute inset-0 bg-blue-600 rounded-full opacity-10 animate-pulse"></div>
               <img
-                src={heroImage} // Use the imported image
+                src={UntitledImage} // Use the imported image
                 alt="Sani Mahmud Madobi"
                 className="rounded-full w-full h-full object-cover border-4 border-white shadow-xl"
               />
