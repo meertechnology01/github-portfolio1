@@ -12,10 +12,9 @@ export default function CV() {
         <CVSection title="PROFESSIONAL SUMMARY">
           <p className="text-gray-700">
             A versatile software engineer with expertise in full-stack development, machine learning, and deep learning.
-            A graduate of the ALX Africa Software Engineering Program, with certifications in HCIA AI and HCIA Datacom,
-            as well as Java programming from Aptech Computer Education. I specialize in building scalable applications
-            and solutions in agriculture, finance, health, and task management sectors. Adept at solving real-world problems
-            using innovative technologies, with a strong focus on enhancing user experience.
+            A graduate of the ALX Africa Software Engineering Program, with certifications in HCIA AI, HCIA Datacom, and Java programming
+            from Aptech Computer Education. Specializing in building scalable applications across agriculture, finance, health, and task management sectors.
+            Passionate about solving real-world problems using innovative technologies, with a strong focus on enhancing user experience and system scalability.
           </p>
         </CVSection>
 
@@ -29,15 +28,28 @@ export default function CV() {
 
         <CVSection title="PROFESSIONAL EXPERIENCE">
           <div className="mb-4">
-            <h3 className="font-semibold">Software Development Intern</h3>
-            <p className="text-gray-600 italic">Blue Sapphire Hub – Kano, Nigeria</p>
+            <h3 className="font-semibold">Backend Software Engineer / AI Engineer Graduate Trainee</h3>
+            <p className="text-gray-600 italic">MIDS Dynamics Ltd – Nigeria | August 2024 – February 2025</p>
             <ul className="list-disc list-inside mt-2 text-gray-700 space-y-2">
-              <li>Troubleshot, debugged, maintained, and improved existing software according to customer and department requests.</li>
-              <li>Trained and furthered knowledge of the most in-demand programming skills.</li>
-              <li>Compiled and assessed customer feedback to make improvement recommendations.</li>
-              <li>Wrote and maintained accurate technical documentation.</li>
-              <li>Identified potential liabilities and made recommendations to resolve issues.</li>
-              <li>Performed routine maintenance and backup of software programs.</li>
+              <li>Developed and optimized backend APIs for AI-powered applications.</li>
+              <li>Designed and implemented machine learning models for predictive analytics.</li>
+              <li>Integrated AI models with cloud-based solutions for scalable deployment.</li>
+              <li>Worked with FastAPI and Django to build efficient backend services.</li>
+              <li>Conducted data preprocessing, feature engineering, and model training for AI-based solutions.</li>
+              <li>Collaborated with cross-functional teams to deploy AI-powered products.</li>
+            </ul>
+          </div>
+
+          <div className="mb-4">
+            <h3 className="font-semibold">Software Development Intern</h3>
+            <p className="text-gray-600 italic">Blue Sapphire Hub – Kano, Nigeria | July 2023 – January 2024</p>
+            <ul className="list-disc list-inside mt-2 text-gray-700 space-y-2">
+              <li>Debugged, maintained, and improved existing software based on customer and department requirements.</li>
+              <li>Learned and applied in-demand programming skills to complete job assignments effectively.</li>
+              <li>Compiled customer feedback and recommended improvements to enhance software products.</li>
+              <li>Created and maintained technical documentation for ongoing and future development projects.</li>
+              <li>Identified potential liabilities and recommended solutions to mitigate risks in software development.</li>
+              <li>Performed routine maintenance and backup of software applications pre- and post-deployment.</li>
             </ul>
           </div>
         </CVSection>
@@ -46,12 +58,11 @@ export default function CV() {
           <div className="space-y-4">
             <div>
               <h3 className="font-semibold">ALX Africa Software Engineering Program</h3>
-              <p className="text-gray-600">Remote | January 2025</p>
-              <p className="text-gray-700">Hands-on experience in full-stack development and software engineering.</p>
+              <p className="text-gray-600">Remote | Graduated: February 2025</p>
             </div>
             <div>
               <h3 className="font-semibold">Bachelor of Science in Computer Science and Information Technology</h3>
-              <p className="text-gray-600">Federal University Dutsinma | December 2023</p>
+              <p className="text-gray-600">Federal University Dutsinma | August 2024</p>
             </div>
             <div>
               <h3 className="font-semibold">Java Programming Certification</h3>
@@ -75,3 +86,4 @@ export default function CV() {
     </div>
   );
 }
+
